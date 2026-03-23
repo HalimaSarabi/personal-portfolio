@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<CSS lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halima's Portfolio</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+ 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#home">Halima's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<section id="home" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="typing">Hi, I'm Halima.</h1>
+        <p>A student and aspiring web developer who loves building simple and creative websites.</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="Sarabi-Photo.jpg" alt="Halima" class="profile-img">
+      </div>
+      <svg class="svg-pattern" viewBox="0 0 100 100"> <circle class="color-change"
+        cx="50" cy="50" r="40" fill="var(--primary)" opacity="0.3"/> 
+      </svg>
+    </div>
+  </div>
+</section>
+<section id="about" class="py-5">
+  <div class="container">
+    
+    <h2 class="about-title text-center mb-4">About Me</h2>
+    <div class="about-card mx-auto">
+       <div class="pattern">
+        <svg class="svg-pattern" viewBox="0 0 100 100"> <circle class="color-change"
+        cx="50" cy="50" r="40" fill="var(--primary)" opacity="0.3"/> 
+      </svg>
+    </div>
+      
+      <p class="about-text delay1">
+        Hello! My name is Halima. I enjoy exploring new technologies and coding projects that solve problems or are fun.
+      </p>
+      <p class="about-text delay2">
+        I am <span class="highlight">curious</span>, 
+        <span class="highlight">creative</span>, and love to learn new skills every day.
+      </p>
+      <p class="about-text delay3">
+        <strong>Fun Facts:</strong> I enjoy reading, learning coding online, and creating small web apps.
+      </p>
+    </div>
+    
+  </div>
+</section>
+<section id="projects">
+  <div class="container">
+    <h2 class="text-center mb-5">My Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Personal Website</h5>
+            <p class="card-text">A website about me with Home, About, and Portfolio pages.</p>
+            <p><strong>Tech:</strong> HTML, CSS</p>
+            <a href="https://halimasarabi.github.io/assignment-2-personal-info-hub/" class="btn btn-custom mt-2">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">A movie Theater</h5>
+            <p class="card-text">A movie theater website demonstrating HTML5 video, semantic sections, and modern CSS styling.</p>
+            <p><strong>Tech:</strong> HTML, CSS</p>
+            <a href="https://halimasarabi.github.io/Assessment-3-cinema-website/" class="btn btn-custom mt-2">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"> Cultural showcase website</h5>
+            <p class="card-text">A cultural showcase website highlighting Afghan cities using HTML and CSS, featuring a gallery, City of the Day, and a submission form.</p>
+            <p><strong>Tech:</strong> HTML, CSS</p>
+            <a href="https://halimasarabi.github.io/cultural-cities-of-afghanistan/" class="btn btn-custom mt-2">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form  class="contact-form" action="" method="get">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Your email">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-custom">Send Message</button>
+    </form>
+  </div>
+</section>
+<footer class="footer-section text-center text-white py-4">
+  <div class="container">
+    <p class="mb-2">© 2026 Halima| Web Developer Portfolio</p>
+    <div class="social-links">
+        <a href="https://github.com/HalimaSarabi">
+            <i class="bi bi-github"></i> GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/halima-sarabi-0bb78a2a8">
+        <i class="bi bi-linkedin"></i> LinkedIn
+        </a>
+
+        <a href="mailto:halima.sarabi84@gmail.com">
+        <i class="bi bi-envelope-fill"></i> Email
+        </a>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
